@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="flex-grow flex items-center justify-center">
-      <div className="text-center space-y-6 px-6">
+      <div className="text-center space-y-4 px-6">
         {/* Logo mark */}
         <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto shadow-xl shadow-green-500/30">
           <svg
@@ -28,25 +28,8 @@ export default function Home() {
         </h1>
 
         <p className="text-slate-500 text-lg max-w-sm mx-auto leading-relaxed">
-          Next.js migration in progress.
-          <br />
-          Phase 1 complete — project scaffolded.
+          Migration in progress — full UI coming in Phase 5.
         </p>
-
-        {/* Design system smoke-test */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-          <div className="skeuo-card p-4 text-sm text-slate-600 font-medium">
-            skeuo-card ✓
-          </div>
-          <div className="premium-card p-4 text-sm text-slate-600 font-medium">
-            premium-card ✓
-          </div>
-          <div className="glass-morphism p-4 text-sm text-slate-600 font-medium">
-            glass-morphism ✓
-          </div>
-        </div>
-
-        <button className="skeuo-button mt-2">skeuo-button ✓</button>
       </div>
     </main>
   );
